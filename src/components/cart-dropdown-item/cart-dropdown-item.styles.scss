@@ -1,0 +1,19 @@
+.cart-item {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    
+    .item-image {
+      flex-basis: 40%;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+      }
+    }
+
+    .item-description {
+        flex-basis: 50%;
+    }
+  }

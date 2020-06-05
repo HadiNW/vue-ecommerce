@@ -1,0 +1,22 @@
+.popular-product {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 0;
+  h2 {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .popular-products {
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 4rem;
+  }
+}

@@ -1,0 +1,19 @@
+.wishlist {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  h2 {
+    font-weight: 500;
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .wishlist-products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}
